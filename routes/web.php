@@ -2,7 +2,13 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Livewire\HomeComponent;
+use App\Http\Livewire\AboutComponent;
+use App\Http\Livewire\ShopComponent;
+use App\Http\Livewire\CartComponent;
+use App\Http\Livewire\CheckoutComponent;
+use App\Http\Livewire\BlogComponent;
+use App\Http\Livewire\ContactComponent;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,10 +19,13 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/',HomeComponent::class)->name('home.index');
+Route::get('/about',AboutComponent::class)->name('about');
+Route::get('/shop',ShopComponent::class)->name('shop');
+Route::get('/cart',CartComponent::class)->name('cart');
+Route::get('/checkout',CheckoutComponent::class)->name('checkout');
+Route::get('/blog',BlogComponent::class)->name('blog');
+Route::get('/contact',ContactComponent::class)->name('contact');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -29,3 +38,5 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+
+
