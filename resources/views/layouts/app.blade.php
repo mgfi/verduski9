@@ -49,7 +49,7 @@
                     <div class="col-xl-3 col-lg-4">
                         <div class="header-info header-info-right">
                             <ul>                                
-                                <li><i class="fi-rs-key"></i><a href="login.html">Log In </a>  / <a href="register.html">Sign Up</a></li>
+                                <li><i class="fi-rs-key"></i><a href="/login">Log In </a>  / <a href="/register">Sign Up</a></li>
                             </ul>
                         </div>
                     </div>
@@ -60,7 +60,7 @@
             <div class="container">
                 <div class="header-wrap">
                     <div class="logo logo-width-1">
-                        <a href="index.html"><img src="{{ asset('assets/imgs/logo/logo.png') }}" alt="logo"></a>
+                        <a href="/index"><img src="{{ asset('assets/imgs/logo/logo.png') }}" alt="logo"></a>
                     </div>
                     <div class="header-right">
                         <div class="search-style-1">
@@ -77,7 +77,7 @@
                                     </a>
                                 </div>
                                 <div class="header-action-icon-2">
-                                    <a class="mini-cart-icon" href="cart.html">
+                                    <a class="mini-cart-icon" href="/cart">
                                         <img alt="Surfside Media" src="{{ asset('assets/imgs/theme/icons/icon-cart.svg') }}">
                                         <span class="pro-count blue">2</span>
                                     </a>
@@ -85,10 +85,10 @@
                                         <ul>
                                             <li>
                                                 <div class="shopping-cart-img">
-                                                    <a href="product-details.html"><img alt="Surfside Media" src="{{ asset('assets/imgs/shop/thumbnail-3.jpg') }}"></a>
+                                                    <a href="/cart"><img alt="Surfside Media" src="{{ asset('assets/imgs/shop/thumbnail-3.jpg') }}"></a>
                                                 </div>
                                                 <div class="shopping-cart-title">
-                                                    <h4><a href="product-details.html">Daisy Casual Bag</a></h4>
+                                                    <h4><a href="/product-details">Daisy Casual Bag</a></h4>
                                                     <h4><span>1 × </span>$800.00</h4>
                                                 </div>
                                                 <div class="shopping-cart-delete">
@@ -97,10 +97,10 @@
                                             </li>
                                             <li>
                                                 <div class="shopping-cart-img">
-                                                    <a href="product-details.html"><img alt="Surfside Media" src="{{ asset('assets/imgs/shop/thumbnail-2.jpg') }}"></a>
+                                                    <a href="/product-details"><img alt="Surfside Media" src="{{ asset('assets/imgs/shop/thumbnail-2.jpg') }}"></a>
                                                 </div>
                                                 <div class="shopping-cart-title">
-                                                    <h4><a href="product-details.html">Corduroy Shirts</a></h4>
+                                                    <h4><a href="/product-details">Corduroy Shirts</a></h4>
                                                     <h4><span>1 × </span>$3200.00</h4>
                                                 </div>
                                                 <div class="shopping-cart-delete">
@@ -113,8 +113,8 @@
                                                 <h4>Total <span>$4000.00</span></h4>
                                             </div>
                                             <div class="shopping-cart-button">
-                                                <a href="cart.html" class="outline">View cart</a>
-                                                <a href="checkout.html">Checkout</a>
+                                                <a href="/cart" class="outline">View cart</a>
+                                                <a href="/checkout">Checkout</a>
                                             </div>
                                         </div>
                                     </div>
@@ -129,7 +129,7 @@
             <div class="container">
                 <div class="header-wrap header-space-between position-relative">
                     <div class="logo logo-width-1 d-block d-lg-none">
-                        <a href="index.html"><img src="{{ asset('assets/imgs/logo/logo.png') }}" alt="logo"></a>
+                        <a href="/"><img src="{{ asset('assets/imgs/logo/logo.png') }}" alt="logo"></a>
                     </div>
                     <div class="header-nav d-none d-lg-flex">
                         <div class="main-categori-wrap d-none d-lg-block">
@@ -316,46 +316,46 @@
                         <div class="main-menu main-menu-padding-1 main-menu-lh-2 d-none d-lg-block">
                             <nav>
                                 <ul>
-                                    <li><a class="active" href="index.html">Home </a></li>
-                                    <li><a href="about.html">About</a></li>
+                                    <li><a class="active" href="/index">Home </a></li>
+                                    <li><a href="/about">About</a></li>
                                     <li><a href="/shop">Shop</a></li>
                                     <li class="position-static"><a href="#">Our Collections <i class="fi-rs-angle-down"></i></a>
                                         <ul class="mega-menu">
                                             <li class="sub-mega-menu sub-mega-menu-width-22">
                                                 <a class="menu-title" href="#">Women's Fashion</a>
                                                 <ul>
-                                                    <li><a href="product-details.html">Dresses</a></li>
-                                                    <li><a href="product-details.html">Blouses & Shirts</a></li>
-                                                    <li><a href="product-details.html">Hoodies & Sweatshirts</a></li>
-                                                    <li><a href="product-details.html">Wedding Dresses</a></li>
-                                                    <li><a href="product-details.html">Prom Dresses</a></li>
-                                                    <li><a href="product-details.html">Cosplay Costumes</a></li>
+                                                    <li><a href="/product-details">Dresses</a></li>
+                                                    <li><a href="/product-details">Blouses & Shirts</a></li>
+                                                    <li><a href="/product-details">Hoodies & Sweatshirts</a></li>
+                                                    <li><a href="/product-details">Wedding Dresses</a></li>
+                                                    <li><a href="/product-details">Prom Dresses</a></li>
+                                                    <li><a href="/product-details">Cosplay Costumes</a></li>
                                                 </ul>
                                             </li>
                                             <li class="sub-mega-menu sub-mega-menu-width-22">
                                                 <a class="menu-title" href="#">Men's Fashion</a>
                                                 <ul>
-                                                    <li><a href="product-details.html">Jackets</a></li>
-                                                    <li><a href="product-details.html">Casual Faux Leather</a></li>
-                                                    <li><a href="product-details.html">Genuine Leather</a></li>
-                                                    <li><a href="product-details.html">Casual Pants</a></li>
-                                                    <li><a href="product-details.html">Sweatpants</a></li>
-                                                    <li><a href="product-details.html">Harem Pants</a></li>
+                                                    <li><a href="/product-details">Jackets</a></li>
+                                                    <li><a href="/product-details">Casual Faux Leather</a></li>
+                                                    <li><a href="/product-details">Genuine Leather</a></li>
+                                                    <li><a href="/product-details">Casual Pants</a></li>
+                                                    <li><a href="/product-details">Sweatpants</a></li>
+                                                    <li><a href="/product-details">Harem Pants</a></li>
                                                 </ul>
                                             </li>
                                             <li class="sub-mega-menu sub-mega-menu-width-22">
                                                 <a class="menu-title" href="#">Technology</a>
                                                 <ul>
-                                                    <li><a href="product-details.html">Gaming Laptops</a></li>
-                                                    <li><a href="product-details.html">Ultraslim Laptops</a></li>
-                                                    <li><a href="product-details.html">Tablets</a></li>
-                                                    <li><a href="product-details.html">Laptop Accessories</a></li>
-                                                    <li><a href="product-details.html">Tablet Accessories</a></li>
+                                                    <li><a href="/product-details">Gaming Laptops</a></li>
+                                                    <li><a href="/product-details">Ultraslim Laptops</a></li>
+                                                    <li><a href="/product-details">Tablets</a></li>
+                                                    <li><a href="/product-details">Laptop Accessories</a></li>
+                                                    <li><a href="/product-details">Tablet Accessories</a></li>
                                                 </ul>
                                             </li>
                                             <li class="sub-mega-menu sub-mega-menu-width-34">
                                                 <div class="menu-banner-wrap">
-                                                    <a href="product-details.html"><img src="{{ asset('assets/imgs/banner/menu-banner.jpg') }}" alt="Surfside Media"></a>
+                                                    <a href="/product-details"><img src="{{ asset('assets/imgs/banner/menu-banner.jpg') }}" alt="Surfside Media"></a>
                                                     <div class="menu-banner-content">
                                                         <h4>Hot deals</h4>
                                                         <h3>Don't miss<br> Trending</h3>
@@ -363,7 +363,7 @@
                                                             <span class="new-price text-success">Save to 50%</span>
                                                         </div>
                                                         <div class="menu-banner-btn">
-                                                            <a href="product-details.html">Shop now</a>
+                                                            <a href="/product-details">Shop now</a>
                                                         </div>
                                                     </div>
                                                     <div class="menu-banner-discount">
@@ -376,8 +376,8 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><a href="blog.html">Blog </a></li>                                    
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="/blog">Blog </a></li>                                    
+                                    <li><a href="/contact">Contact</a></li>
                                     <li><a href="#">My Account<i class="fi-rs-angle-down"></i></a>
                                         <ul class="sub-menu">
                                             <li><a href="#">Dashboard</a></li>
@@ -406,7 +406,7 @@
                                 </a>
                             </div>
                             <div class="header-action-icon-2">
-                                <a class="mini-cart-icon" href="cart.html">
+                                <a class="mini-cart-icon" href="/cart">
                                     <img alt="Surfside Media" src="{{ asset('assets/imgs/theme/icons/icon-cart.svg') }}">
                                     <span class="pro-count white">2</span>
                                 </a>
@@ -414,10 +414,10 @@
                                     <ul>
                                         <li>
                                             <div class="shopping-cart-img">
-                                                <a href="product-details.html"><img alt="Surfside Media" src="{{ asset('assets/imgs/shop/thumbnail-3.jpg') }}"></a>
+                                                <a href="/product-details"><img alt="Surfside Media" src="{{ asset('assets/imgs/shop/thumbnail-3.jpg') }}"></a>
                                             </div>
                                             <div class="shopping-cart-title">
-                                                <h4><a href="product-details.html">Plain Striola Shirts</a></h4>
+                                                <h4><a href="/product-details">Plain Striola Shirts</a></h4>
                                                 <h3><span>1 × </span>$800.00</h3>
                                             </div>
                                             <div class="shopping-cart-delete">
@@ -426,10 +426,10 @@
                                         </li>
                                         <li>
                                             <div class="shopping-cart-img">
-                                                <a href="product-details.html"><img alt="Surfside Media" src="{{ asset('assets/imgs/shop/thumbnail-4.jpg') }}"></a>
+                                                <a href="/product-details"><img alt="Surfside Media" src="{{ asset('assets/imgs/shop/thumbnail-4.jpg') }}"></a>
                                             </div>
                                             <div class="shopping-cart-title">
-                                                <h4><a href="product-details.html">Macbook Pro 2022</a></h4>
+                                                <h4><a href="/product-details">Macbook Pro 2022</a></h4>
                                                 <h3><span>1 × </span>$3500.00</h3>
                                             </div>
                                             <div class="shopping-cart-delete">
@@ -442,7 +442,7 @@
                                             <h4>Total <span>$383.00</span></h4>
                                         </div>
                                         <div class="shopping-cart-button">
-                                            <a href="cart.html">View cart</a>
+                                            <a href="/cart">View cart</a>
                                             <a href="shop-checkout.php">Checkout</a>
                                         </div>
                                     </div>
@@ -465,7 +465,7 @@
         <div class="mobile-header-wrapper-inner">
             <div class="mobile-header-top">
                 <div class="mobile-header-logo">
-                    <a href="index.html"><img src="{{ asset('assets/imgs/logo/logo.png') }}" alt="logo"></a>
+                    <a href="/index"><img src="{{ asset('assets/imgs/logo/logo.png') }}" alt="logo"></a>
                 </div>
                 <div class="mobile-menu-close close-style-wrap close-style-position-inherit">
                     <button class="close-style search-close">
@@ -503,37 +503,37 @@
                     <!-- mobile menu start -->
                     <nav>
                         <ul class="mobile-menu">
-                            <li class="menu-item-has-children"><span class="menu-expand"></span><a href="index.html">Home</a></li>
+                            <li class="menu-item-has-children"><span class="menu-expand"></span><a href="/index">Home</a></li>
                             <li class="menu-item-has-children"><span class="menu-expand"></span><a href="/shop">shop</a></li>
                             <li class="menu-item-has-children"><span class="menu-expand"></span><a href="#">Our Collections</a>
                                 <ul class="dropdown">
                                     <li class="menu-item-has-children"><span class="menu-expand"></span><a href="#">Women's Fashion</a>
                                         <ul class="dropdown">
-                                            <li><a href="product-details.html">Dresses</a></li>
-                                            <li><a href="product-details.html">Blouses & Shirts</a></li>
-                                            <li><a href="product-details.html">Hoodies & Sweatshirts</a></li>
-                                            <li><a href="product-details.html">Women's Sets</a></li>
+                                            <li><a href="/product-details">Dresses</a></li>
+                                            <li><a href="/product-details">Blouses & Shirts</a></li>
+                                            <li><a href="/product-details">Hoodies & Sweatshirts</a></li>
+                                            <li><a href="/product-details">Women's Sets</a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children"><span class="menu-expand"></span><a href="#">Men's Fashion</a>
                                         <ul class="dropdown">
-                                            <li><a href="product-details.html">Jackets</a></li>
-                                            <li><a href="product-details.html">Casual Faux Leather</a></li>
-                                            <li><a href="product-details.html">Genuine Leather</a></li>
+                                            <li><a href="/product-details">Jackets</a></li>
+                                            <li><a href="/product-details">Casual Faux Leather</a></li>
+                                            <li><a href="/product-details">Genuine Leather</a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item-has-children"><span class="menu-expand"></span><a href="#">Technology</a>
                                         <ul class="dropdown">
-                                            <li><a href="product-details.html">Gaming Laptops</a></li>
-                                            <li><a href="product-details.html">Ultraslim Laptops</a></li>
-                                            <li><a href="product-details.html">Tablets</a></li>
-                                            <li><a href="product-details.html">Laptop Accessories</a></li>
-                                            <li><a href="product-details.html">Tablet Accessories</a></li>
+                                            <li><a href="/product-details">Gaming Laptops</a></li>
+                                            <li><a href="/product-details">Ultraslim Laptops</a></li>
+                                            <li><a href="/product-details">Tablets</a></li>
+                                            <li><a href="/product-details">Laptop Accessories</a></li>
+                                            <li><a href="/product-details">Tablet Accessories</a></li>
                                         </ul>
                                     </li>
                                 </ul>
                             </li>
-                            <li class="menu-item-has-children"><span class="menu-expand"></span><a href="blog.html">Blog</a></li>
+                            <li class="menu-item-has-children"><span class="menu-expand"></span><a href="/blog">Blog</a></li>
                             <li class="menu-item-has-children"><span class="menu-expand"></span><a href="#">Language</a>
                                 <ul class="dropdown">
                                     <li><a href="#">English</a></li>
@@ -548,13 +548,13 @@
                 </div>
                 <div class="mobile-header-info-wrap mobile-header-border">
                     <div class="single-mobile-header-info mt-30">
-                        <a href="contact.html"> Our location </a>
+                        <a href="/contact"> Our location </a>
                     </div>
                     <div class="single-mobile-header-info">
-                        <a href="login.html">Log In </a>                        
+                        <a href="/login">Log In </a>                        
                     </div>
                     <div class="single-mobile-header-info">                        
-                        <a href="register.html">Sign Up</a>
+                        <a href="/register">Sign Up</a>
                     </div>
                     <div class="single-mobile-header-info">
                         <a href="#">(+1) 0000-000-000 </a>
@@ -605,7 +605,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="widget-about font-md mb-md-5 mb-lg-0">
                             <div class="logo logo-width-1 wow fadeIn animated">
-                                <a href="index.html"><img src="{{ asset('assets/imgs/logo/logo.png') }}" alt="logo"></a>
+                                <a href="/index"><img src="{{ asset('assets/imgs/logo/logo.png') }}" alt="logo"></a>
                             </div>
                             <h5 class="mt-20 mb-10 fw-600 text-grey-4 wow fadeIn animated">Contact</h5>
                             <p class="wow fadeIn animated">
@@ -640,7 +640,7 @@
                     <div class="col-lg-2  col-md-3">
                         <h5 class="widget-title wow fadeIn animated">My Account</h5>
                         <ul class="footer-list wow fadeIn animated">
-                            <li><a href="my-account.html">My Account</a></li>
+                            <li><a href="/my-account">My Account</a></li>
                             <li><a href="#">View Cart</a></li>
                             <li><a href="#">My Wishlist</a></li>
                             <li><a href="#">Track My Order</a></li>                            
@@ -673,7 +673,7 @@
                 </div>
                 <div class="col-lg-6">
                     <p class="float-md-left font-sm text-muted mb-0">
-                        <a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-conditions.html">Terms & Conditions</a>
+                        <a href="/privacy-policy">Privacy Policy</a> | <a href="/terms-conditions">Terms & Conditions</a>
                     </p>
                 </div>
                 <div class="col-lg-6">

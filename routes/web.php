@@ -2,7 +2,13 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Livewire\HomeComponent;
+use App\Http\Livewire\AboutComponent;
 use App\Http\Livewire\ShopComponent;
+use App\Http\Livewire\CartComponent;
+use App\Http\Livewire\CheckoutComponent;
+use App\Http\Livewire\BlogComponent;
+use App\Http\Livewire\ContactComponent;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -20,4 +26,9 @@ use App\Http\Livewire\ShopComponent;
 // });
 
 Route::get('/',HomeComponent::class)->name('home.index');
+Route::get('/about',AboutComponent::class)->name('about');
 Route::get('/shop',ShopComponent::class)->name('shop');
+Route::get('/cart',CartComponent::class)->name('cart');
+Route::get('/checkout',CheckoutComponent::class)->name('checkout');
+Route::get('/blog',BlogComponent::class)->name('blog');
+Route::get('/contact',ContactComponent::class)->name('contact');
