@@ -9,6 +9,8 @@ use App\Http\Livewire\CartComponent;
 use App\Http\Livewire\CheckoutComponent;
 use App\Http\Livewire\BlogComponent;
 use App\Http\Livewire\ContactComponent;
+use App\Http\Livewire\User\UserDashboardComponent;
+use App\Http\Livewire\Admin\AdminDashboardComponent;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -27,9 +29,17 @@ Route::get('/checkout',CheckoutComponent::class)->name('checkout');
 Route::get('/blog',BlogComponent::class)->name('blog');
 Route::get('/contact',ContactComponent::class)->name('contact');
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+// Route::get('/dashboard', function () {
+//     return view('dashboard');
+// })->middleware(['auth', 'verified'])->name('dashboard');
+
+Route::middleware(['auth'])->group(function(){
+    Route::get('/user/dashboard',UserDashboardComponent::class)->name('user.dashboard');
+});
+
+Route::middleware(['auth','authadmin'])->group(function(){
+    Route::get('/admin/dashboard',AdminDashboardComponent::class)->name('admin.dashboard');
+});
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
